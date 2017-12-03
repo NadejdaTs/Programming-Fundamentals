@@ -10,8 +10,9 @@ namespace Bool
     {
         static void Main(string[] args)
         {
-            string str = Console.ReadLine();
-            bool b = Convert.ToBoolean(str);
+            //string str = Console.ReadLine();
+            //bool b = Convert.ToBoolean(str);
+            bool b = Convert.ToBoolean(Console.ReadLine());
             if (b)
             {          
                 Console.WriteLine("Yes");

@@ -10,14 +10,18 @@ namespace ConvertSpeedUnits
     {
         static void Main(string[] args)
         {
-            decimal a = decimal.Parse(System.Console.ReadLine());
-            decimal b = decimal.Parse(System.Console.ReadLine());
-            decimal perimeter = (a + b)*2;
-            decimal area = a*b;
-            decimal diagonal = Math.Sqrt(a,b);
-            Console.WriteLine(perimeter);
-            Console.WriteLine(area);
-            Console.WriteLine(diagonal);//ot flashkata
+            float distInMeters = float.Parse(Console.ReadLine());
+            float hours = float.Parse(Console.ReadLine());
+            float minutes = float.Parse(Console.ReadLine());
+            float seconds = float.Parse(Console.ReadLine());
+
+            float metersPerSeconds = distInMeters/(seconds+(minutes*60)+(hours*60*60));
+            float kilometersPerHours = (distInMeters / 1000) /(hours+(minutes/60)+(seconds/60/60));
+            double milesPerHours = ((distInMeters/1000)* 0.62137)/ (hours + (minutes / 60) + (seconds / 60 / 60));
+            Console.WriteLine(Math.Round(metersPerSeconds,5));
+            Console.WriteLine(Math.Round(kilometersPerHours, 5));
+            Console.WriteLine(Math.Round(milesPerHours, 5));
+
         }
     }
 }
