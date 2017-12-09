@@ -15,12 +15,12 @@ namespace ConvertSpeedUnits
             float minutes = float.Parse(Console.ReadLine());
             float seconds = float.Parse(Console.ReadLine());
 
-            float metersPerSeconds = distInMeters/(seconds+(minutes*60)+(hours*60*60));
-            float kilometersPerHours = (distInMeters / 1000) /(hours+(minutes/60)+(seconds/60/60));
-            double milesPerHours = ((distInMeters/1000)* 0.62137)/ (hours + (minutes / 60) + (seconds / 60 / 60));
-            Console.WriteLine(Math.Round(metersPerSeconds,5));
-            Console.WriteLine(Math.Round(kilometersPerHours, 5));
-            Console.WriteLine(Math.Round(milesPerHours, 5));
+            float metersPerSeconds = distInMeters/(seconds+(minutes*60.0f)+(hours*60.0f* 60.0f));
+            float kilometersPerHours = (distInMeters / 1000.0f) /(hours+(minutes/ 60.0f) +(seconds/ 60.0f / 60.0f));
+            float milesPerHours = (distInMeters/ 1609.0f) / (hours + (minutes / 60.0f) + (seconds / 60.0f / 60.0f));
+            Console.WriteLine(metersPerSeconds);
+            Console.WriteLine(kilometersPerHours);
+            Console.WriteLine(milesPerHours);
 
         }
     }

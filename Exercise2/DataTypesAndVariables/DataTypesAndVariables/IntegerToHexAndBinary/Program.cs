@@ -11,10 +11,9 @@ namespace IntegerToHexAndBinary
     {
         static void Main(string[] args)
         {
-            string enteredNumber = Console.ReadLine();
-            string newNum = string.ToUpper(enteredNumber);
-            //Console.WriteLine(Convert.ToString(n, base));
-            //Console.WriteLine(string.ToUpper(n));
+            int number = int.Parse(Console.ReadLine());
+            Console.WriteLine(Convert.ToString(number,16).ToUpper());
+            Console.WriteLine(Convert.ToString(number,2));
         }
     }
 }

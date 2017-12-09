@@ -13,24 +13,31 @@ namespace PrintPartOfTheASCIITable
             //int f = 0;
             //int d = 10;
             //Console.WriteLine(double.PositiveInfinity * double.NegativeInfinity);
-            //
-            //bool b = 100.25 > 50 != 20>5;
+
+            //bool b = 100.25 > 50 != 20 > 5;
             //Console.WriteLine(b);
-            //
-            //int a = 'n' - 'a'+1;
+
+            //int a = 'n' - 'a' + 1;
             //Console.WriteLine(a);
-            //
-            //int a = '9'-'0';
+
+            //int a = '9' - '0';
             //Console.WriteLine(a);
-            //
+
             //string num = Console.ReadLine();
             //foreach (var symbol in num)
             //{
-            //    Console.WriteLine(symbol-'0');
+            //    Console.WriteLine(symbol - '0');
             //}
-            //
-            Console.WriteLine((int)'щ');
 
+            //Console.WriteLine((int)'щ');
+            int FirstNum = int.Parse(Console.ReadLine());
+            int LastNum = int.Parse(Console.ReadLine());
+            for (int i = FirstNum; i <= LastNum; i++)
+            {
+                Console.Write(Convert.ToChar(i));
+            }
+            Console.WriteLine();
+            
         }
     }
 }

@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RectangleProperties", "Rect
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Speed", "Speed\Speed.csproj", "{A9925E0D-CE56-46F4-843B-F67BD169EDBF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thea_Photographer", "Thea_Photographer\Thea_Photographer.csproj", "{D083F489-87F1-470F-AC5F-3F215C642102}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{A9925E0D-CE56-46F4-843B-F67BD169EDBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9925E0D-CE56-46F4-843B-F67BD169EDBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9925E0D-CE56-46F4-843B-F67BD169EDBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D083F489-87F1-470F-AC5F-3F215C642102}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D083F489-87F1-470F-AC5F-3F215C642102}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D083F489-87F1-470F-AC5F-3F215C642102}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D083F489-87F1-470F-AC5F-3F215C642102}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
