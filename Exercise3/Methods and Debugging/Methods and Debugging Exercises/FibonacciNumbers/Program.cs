@@ -23,6 +23,7 @@ namespace FibonacciNumbers
             if (num == 0 || num == 1)
             {
                 return num;
+                //return 1;
             }
             else
             {

@@ -30,7 +30,7 @@ namespace Cube.Properties
             }
             else if (parameter == "volume")
             {
-                double result = num * num * num;
+                double result = Math.Pow(num,3);
                 return result;
             }
             else

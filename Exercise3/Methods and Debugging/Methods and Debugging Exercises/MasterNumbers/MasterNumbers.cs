@@ -10,6 +10,7 @@ namespace MasterNumbers
     {
         static void Main()
         {
+
         }
     }
 }

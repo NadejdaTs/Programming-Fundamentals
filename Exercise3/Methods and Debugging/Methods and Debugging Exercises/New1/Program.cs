@@ -24,8 +24,8 @@ namespace FactorialTrailingZeroes
             BigInteger timesZero = 0;
             while (num % 10 == 0)
             {
-                num = num / 10;
                 timesZero++;
+                num = num / 10;
             }
             Console.WriteLine(timesZero);
         }

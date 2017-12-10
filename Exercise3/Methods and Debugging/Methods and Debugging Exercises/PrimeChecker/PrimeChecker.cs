@@ -29,7 +29,7 @@ namespace PrimeChecker
                     isPrime = false;
                 }
             }
-                return isPrime;
+            return isPrime;
         }
     }
 }

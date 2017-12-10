@@ -5,33 +5,41 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methods and Debugging Exercises", "Methods and Debugging Exercises\Methods and Debugging Exercises.csproj", "{866EE431-DA74-4181-90EE-5D286366D32E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Max Method", "Max Method\Max Method.csproj", "{66980223-E4DA-4C1B-83CD-0B0EC4EDAE57}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Max Method", "Max Method\02.Max Method.csproj", "{66980223-E4DA-4C1B-83CD-0B0EC4EDAE57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Name оf The Last Digit", "Name оf The Last Digit\Name оf The Last Digit.csproj", "{AB775EED-0D0F-4089-B811-E6B19DEAC444}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Name оf The Last Digit", "Name оf The Last Digit\03.Name оf The Last Digit.csproj", "{AB775EED-0D0F-4089-B811-E6B19DEAC444}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumbersReversedOrder", "NumbersReversedOrder\NumbersReversedOrder.csproj", "{A6D04E4A-2E6E-4932-96EE-0B9E9A25FE8A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.NumbersReversedOrder", "NumbersReversedOrder\04.NumbersReversedOrder.csproj", "{A6D04E4A-2E6E-4932-96EE-0B9E9A25FE8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciNumbers", "FibonacciNumbers\FibonacciNumbers.csproj", "{9BC870FC-541D-405D-A627-0120AD930ACC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.FibonacciNumbers", "FibonacciNumbers\05.FibonacciNumbers.csproj", "{9BC870FC-541D-405D-A627-0120AD930ACC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeChecker", "PrimeChecker\PrimeChecker.csproj", "{33E56025-542C-4B93-833E-762EB6A56396}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.PrimeChecker", "PrimeChecker\06.PrimeChecker.csproj", "{33E56025-542C-4B93-833E-762EB6A56396}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CenterPoint", "CenterPoint\CenterPoint.csproj", "{FBAC6382-F997-4B0B-BD6E-D4DE0071AE2B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.CenterPoint", "CenterPoint\08.CenterPoint.csproj", "{FBAC6382-F997-4B0B-BD6E-D4DE0071AE2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimesInGivenRange", "PrimesInGivenRange\PrimesInGivenRange.csproj", "{CA68C191-563B-4C36-A471-922064386C9F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.PrimesInGivenRange", "PrimesInGivenRange\07.PrimesInGivenRange.csproj", "{CA68C191-563B-4C36-A471-922064386C9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cube.Properties", "Cube.Properties\Cube.Properties.csproj", "{088BE203-57CA-475C-B392-3331DA71B9C1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.Cube.Properties", "Cube.Properties\10.Cube.Properties.csproj", "{088BE203-57CA-475C-B392-3331DA71B9C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometryCalculator", "GeometryCalculator\GeometryCalculator.csproj", "{1B0FEB21-50C4-42CA-8645-4D08923BE392}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.GeometryCalculator", "GeometryCalculator\11.GeometryCalculator.csproj", "{1B0FEB21-50C4-42CA-8645-4D08923BE392}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterNumbers", "MasterNumbers\MasterNumbers.csproj", "{47153503-137E-4B27-B28B-68A5AC092630}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongerLine", "LongerLine\LongerLine.csproj", "{38E7FFE4-6342-498D-8342-74995201CFFE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.LongerLine", "LongerLine\09.LongerLine.csproj", "{38E7FFE4-6342-498D-8342-74995201CFFE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "New", "New\New.csproj", "{E19577AB-969E-4A6D-B473-BCDBFB7AE91D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterNumber", "MasterNumber\MasterNumber.csproj", "{78356537-C741-4E7D-B5C6-595F1DB5ECAC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12.MasterNumber", "MasterNumber\12.MasterNumber.csproj", "{78356537-C741-4E7D-B5C6-595F1DB5ECAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "New1", "New1\New1.csproj", "{D8A31B03-9B38-4F11-B8DE-36102A982705}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14.FactorialTrailingZeroes", "New1\14.FactorialTrailingZeroes.csproj", "{D8A31B03-9B38-4F11-B8DE-36102A982705}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13.Factorial", "13.Factorial\13.Factorial.csproj", "{102E9E7E-3C35-4D69-9547-7E82E7E79657}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.SubstrBrok", "15.SubstrBrok\15.SubstrBrok.csproj", "{0A27C141-F3CC-45B8-9740-D8F45BE21FF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16.InstructionSet", "InstructionSet\16.InstructionSet.csproj", "{6C87D374-24DF-431E-97BE-CE0BCC40B696}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18.BePositive", "18.BePositive\18.BePositive.csproj", "{A5FCFE0A-5E58-4476-922F-56523337C06A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +107,22 @@ Global
 		{D8A31B03-9B38-4F11-B8DE-36102A982705}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8A31B03-9B38-4F11-B8DE-36102A982705}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8A31B03-9B38-4F11-B8DE-36102A982705}.Release|Any CPU.Build.0 = Release|Any CPU
+		{102E9E7E-3C35-4D69-9547-7E82E7E79657}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{102E9E7E-3C35-4D69-9547-7E82E7E79657}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{102E9E7E-3C35-4D69-9547-7E82E7E79657}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{102E9E7E-3C35-4D69-9547-7E82E7E79657}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A27C141-F3CC-45B8-9740-D8F45BE21FF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A27C141-F3CC-45B8-9740-D8F45BE21FF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A27C141-F3CC-45B8-9740-D8F45BE21FF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A27C141-F3CC-45B8-9740-D8F45BE21FF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C87D374-24DF-431E-97BE-CE0BCC40B696}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C87D374-24DF-431E-97BE-CE0BCC40B696}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C87D374-24DF-431E-97BE-CE0BCC40B696}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C87D374-24DF-431E-97BE-CE0BCC40B696}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5FCFE0A-5E58-4476-922F-56523337C06A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5FCFE0A-5E58-4476-922F-56523337C06A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5FCFE0A-5E58-4476-922F-56523337C06A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5FCFE0A-5E58-4476-922F-56523337C06A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

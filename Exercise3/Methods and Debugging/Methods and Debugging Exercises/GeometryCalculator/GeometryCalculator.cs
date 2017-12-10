@@ -27,9 +27,9 @@ namespace GeometryCalculator
                     double sideOfSquare = double.Parse(Console.ReadLine());
                     return sideOfSquare * sideOfSquare;
                 case "rectangle":
-                    double sideOfrectangle = double.Parse(Console.ReadLine());
-                    double secsideOfrectangle = double.Parse(Console.ReadLine());
-                    return sideOfrectangle * secsideOfrectangle;
+                    double sideOfRectangle = double.Parse(Console.ReadLine());
+                    double secsideOfRectangle = double.Parse(Console.ReadLine());
+                    return sideOfRectangle * secsideOfRectangle;
                 case "circle":
                     double radius = double.Parse(Console.ReadLine());
                     return Math.PI * radius * radius;
