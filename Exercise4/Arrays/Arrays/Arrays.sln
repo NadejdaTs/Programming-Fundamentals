@@ -7,25 +7,27 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArraysOfIntNum", "ArraysOfIntNum\ArraysOfIntNum.csproj", "{1E2A307B-A459-4273-A465-7AD7694A4DCA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompareCharArrays", "CompareCharArrays\CompareCharArrays.csproj", "{D7F7E96C-E9AC-4936-A39F-AA7700BE3441}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.CompareCharArrays", "CompareCharArrays\05.CompareCharArrays.csproj", "{D7F7E96C-E9AC-4936-A39F-AA7700BE3441}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LargestCommonEnd", "LargestCommonEnd\LargestCommonEnd.csproj", "{4F3018EC-0202-4ED2-98C8-361F104931F2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.LargestCommonEnd", "LargestCommonEnd\01.LargestCommonEnd.csproj", "{4F3018EC-0202-4ED2-98C8-361F104931F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RotateАndSum", "RotateАndSum\RotateАndSum.csproj", "{7BA638F9-7FA6-4628-97CE-B08518EC0F28}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.RotateАndSum", "RotateАndSum\02.RotateАndSum.csproj", "{7BA638F9-7FA6-4628-97CE-B08518EC0F28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoldAndSum", "FoldAndSum\FoldAndSum.csproj", "{80C7CED2-36B1-4F3C-A6FE-55E31FCCAAA0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.FoldAndSum", "FoldAndSum\03.FoldAndSum.csproj", "{80C7CED2-36B1-4F3C-A6FE-55E31FCCAAA0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Sieve of Eratosthenes", "4. Sieve of Eratosthenes\4. Sieve of Eratosthenes.csproj", "{D906A908-6855-4E75-AFCC-52059E9CCC11}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Sieve of Eratosthenes", "4. Sieve of Eratosthenes\04. Sieve of Eratosthenes.csproj", "{D906A908-6855-4E75-AFCC-52059E9CCC11}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9. Index of Letters", "9. Index of Letters\9. Index of Letters.csproj", "{57A8E156-4322-45E0-9A6B-BCEF1577FDA6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. Index of Letters", "9. Index of Letters\09. Index of Letters.csproj", "{57A8E156-4322-45E0-9A6B-BCEF1577FDA6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. Max Sequence of Equal Elements", "6. Max Sequence of Equal Elements\6. Max Sequence of Equal Elements.csproj", "{0FA8208E-B3D3-4E3A-85FF-191F029DACF5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Max Sequence of Equal Elements", "6. Max Sequence of Equal Elements\06. Max Sequence of Equal Elements.csproj", "{0FA8208E-B3D3-4E3A-85FF-191F029DACF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7. Max Sequence of Increasing Elements", "17. Max Sequence of Increasing Elements\7. Max Sequence of Increasing Elements.csproj", "{286A3B73-21CE-43D5-AE81-B8E62E605EC9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Max Sequence of Increasing Elements", "17. Max Sequence of Increasing Elements\07. Max Sequence of Increasing Elements.csproj", "{286A3B73-21CE-43D5-AE81-B8E62E605EC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8. Most Frequent Number", "8. Most Frequent Number\8. Most Frequent Number.csproj", "{4BE24215-2DDE-463B-AC32-CF8EC3F04BA4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Most Frequent Number", "8. Most Frequent Number\08. Most Frequent Number.csproj", "{4BE24215-2DDE-463B-AC32-CF8EC3F04BA4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. Pairs by Difference", "10. Pairs by Difference\10. Pairs by Difference.csproj", "{7DFD76BF-ED0A-44D6-A0E4-7C3D8459BE46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlyTest", "OnlyTest\OnlyTest.csproj", "{3F1A25CA-C0D2-4668-9412-31289D858ECF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{7DFD76BF-ED0A-44D6-A0E4-7C3D8459BE46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DFD76BF-ED0A-44D6-A0E4-7C3D8459BE46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DFD76BF-ED0A-44D6-A0E4-7C3D8459BE46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F1A25CA-C0D2-4668-9412-31289D858ECF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F1A25CA-C0D2-4668-9412-31289D858ECF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F1A25CA-C0D2-4668-9412-31289D858ECF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F1A25CA-C0D2-4668-9412-31289D858ECF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

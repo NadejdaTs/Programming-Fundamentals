@@ -22,7 +22,7 @@ namespace _6.Max_Sequence_of_Equal_Elements
                     count++;
                     if (maxCount < count)
                     {
-                        start = i - count; //zapazva nomera na elementa ot masiwa, s poredica
+                        start = i - count; //zapazva nomera na elementa ot masiva, s poredica
                         maxCount = count;
                     }
                 }

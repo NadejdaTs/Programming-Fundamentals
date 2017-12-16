@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Fold_And_Sum
 {
@@ -37,10 +34,10 @@ namespace Fold_And_Sum
             //    .ToList()
             //    .ForEach(Console.WriteLine);
             var result = 0;
-            for (int i = 0; i < numbers.Length/2; i++)
+            for (int i = 0; i < numbers.Length / 2; i++)
             {
                 result = firstRow[i] + secondRow[i];
-                Console.Write(result+" ");
+                Console.Write(result + " ");
             }
             Console.WriteLine();
         }

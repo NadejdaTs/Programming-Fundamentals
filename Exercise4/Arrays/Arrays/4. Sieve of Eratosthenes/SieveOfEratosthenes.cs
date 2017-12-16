@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _4.Sieve_of_Eratosthenes
 {
@@ -15,7 +11,7 @@ namespace _4.Sieve_of_Eratosthenes
         }
         public static void Eratosthenes(int n)
         {
-            bool[] primes = new bool[n+1];
+            bool[] primes = new bool[n + 1];
             for (int i = 0; i <= n; i++)
             {
                 primes[i] = true;
@@ -27,10 +23,10 @@ namespace _4.Sieve_of_Eratosthenes
             {
                 if (primes[p])
                 {
-                    Console.Write(p+" ");
+                    Console.Write(p + " ");
                     for (int j = 2; j < n; j++)
                     {
-                        if (j*p <= n && j*p >=0)
+                        if (j * p <= n && j * p >= 0)
                         {
                             primes[j * p] = false;
                         }
