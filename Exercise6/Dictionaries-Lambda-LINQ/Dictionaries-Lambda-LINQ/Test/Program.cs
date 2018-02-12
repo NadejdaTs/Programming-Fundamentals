@@ -1,35 +1,30 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 
-namespace _101_Phonebook
+namespace _3.A_Miner_Task
 {
-    class Program
+    class MinerTask
     {
         static void Main(string[] args)
         {
-            Dictionary<string, string> phonebook = new Dictionary<string, string>();
-            List<string> input = Console.ReadLine().Split().ToList();
+            var line = Console.ReadLine();
+            var resourceQuantity = new Dictionary<string, decimal>();
 
-            while (input[0] != "END")
+            while (line != "stop")
             {
-                if (input[0] == "A")
+                var resourse = line;
+                var quantity = decimal.Parse(Console.ReadLine());
+                if (!resourceQuantity.ContainsKey(resourse))
                 {
-                    phonebook[input[1]] = input[2];
+                    resourceQuantity[resourse] = 0;
                 }
-                else if (input[0] == "S")
-                {
-                    if (phonebook.ContainsKey(input[1]))
-                    {
-                        Console.WriteLine("{0} -> {1}", input[1], phonebook[input[1]]);
-                    }
-                    else
-                    {
-                        Console.WriteLine($"Contact {input[1]} does not exist.");
-                    }
-                }
+                resourceQuantity[resourse] += quantity;    
+                line = Console.ReadLine();
+            }
 
-                input = Console.ReadLine().Split().ToList();
+            foreach (var resourse in resourceQuantity)
+            {
+                Console.WriteLine($"{resourse.Key} -> {resourse.Value}");
             }
         }
     }

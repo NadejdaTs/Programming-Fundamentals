@@ -2,44 +2,39 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Dictionaries_Lambda_LINQ
+namespace _1_Phonebook
 {
-    class Program
+    class Phonebook
     {
-        static void Main()
+        static void Main(string[] args)
         {
-            var commands = Console.ReadLine()
-                .ToUpper()
+            var input = Console.ReadLine()
                 .Split()
                 .ToList();
 
             var phonebook = new Dictionary<string, string>();
 
-            var command = commands[0];
-            var name = commands[1];
-            var phone = commands[2];
-
-            while (command != "END")
+            while (input[0] != "END")
             {
-                if (command == "A")
+                if (input[0] == "A")
                 {
-                    phonebook[name] = phone;
+                    phonebook[input[1]] = input[2];
                 }
-                else if (command == "S")
+                else if (input[0] == "S")
                 {
-                    if (phonebook.ContainsKey(name))
+                    if (phonebook.ContainsKey(input[1]))
                     {
-                        Console.WriteLine($"{name} -> {phonebook[name]}");                        
+                        Console.WriteLine("{0} -> {1}", input[1], phonebook[input[1]]);
                     }
                     else
                     {
-                        Console.WriteLine($"Contact {name} does not exist.");
+                        Console.WriteLine($"Contact {input[1]} does not exist.");
                     }
                 }
 
-                commands = Console.ReadLine()
-                .Split()
-                .ToList();
+                input = Console.ReadLine()
+                    .Split()
+                    .ToList();
             }
         }
     }

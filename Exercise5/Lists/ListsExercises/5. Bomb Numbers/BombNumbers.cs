@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _5.Bomb_Numbers
 {
@@ -13,12 +10,12 @@ namespace _5.Bomb_Numbers
             var numbers = Console.ReadLine()
                 .Split(' ')
                 .Select(int.Parse)
-                .ToList();
+                .ToList();                      // 1 2 2 4 2 2 2 9
 
             var bombNum = Console.ReadLine()
                 .Split(' ')
                 .Select(int.Parse)
-                .ToList();
+                .ToList();                      // 4 2   ->12
 
             var bomb = bombNum[0];
             var power = bombNum[1];

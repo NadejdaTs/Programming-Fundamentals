@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace _3.A_Miner_Task
 {
@@ -21,7 +20,7 @@ namespace _3.A_Miner_Task
                 {
                     resourceQuantity[resourse] = 0;         //napravi go
                 }
-                resourceQuantity[resourse] += quantity;      //dobavi kolichestwoto kum zapisa
+                resourceQuantity[resourse] += quantity;      //dobavi kolichestvoto kum zapisa
 
                 line = Console.ReadLine();
             }

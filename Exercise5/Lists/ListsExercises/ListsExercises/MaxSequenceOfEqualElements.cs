@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ListsExercises
 {
@@ -26,7 +23,7 @@ namespace ListsExercises
                     count++;
                     if (maxCount < count)
                     {
-                        start = i - count;
+                        start = i - count;  //current position
                         maxCount = count;
                     }
                 }

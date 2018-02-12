@@ -1,17 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace _2.Phonebook_Upgrade
+namespace _1_Phonebook
 {
-    class PhonebookUpgrade
+    class Phonebook
     {
-        static void Main()
+        static void Main(string[] args)
         {
-            SortedDictionary<string, string> phonebook = new SortedDictionary<string, string>();
-            List<string> input = Console.ReadLine().Split().ToList();
+            var input = Console.ReadLine()
+                .Split()
+                .ToList();
+
+            var phonebook = new SortedDictionary<string, string>();
 
             while (input[0] != "END")
             {
@@ -23,18 +24,24 @@ namespace _2.Phonebook_Upgrade
                 {
                     if (phonebook.ContainsKey(input[1]))
                     {
-                        if (input[0] == "ListAll")
-                        {
-                            Console.WriteLine("{0} -> {1}", input[1], phonebook[input[1]]);
-                        }
+                        Console.WriteLine("{0} -> {1}", input[1], phonebook[input[1]]);
                     }
                     else
                     {
                         Console.WriteLine($"Contact {input[1]} does not exist.");
                     }
                 }
+                else if (input[0] == "ListAll")
+                {
+                    foreach (var item in phonebook)
+                    {
+                        Console.WriteLine("{0} -> {1}",item.Key, item.Value);
+                    }
+                }
 
-                input = Console.ReadLine().Split().ToList();
+                    input = Console.ReadLine()
+                    .Split()
+                    .ToList();
             }
         }
     }
