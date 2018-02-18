@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace _6.User_Logs
 {
@@ -7,64 +8,65 @@ namespace _6.User_Logs
     {
         static void Main()
         {
-            var text = Console.ReadLine();
-            var textSplit = text
-                .Split(' ','=');
 
-            var usersAndIpAddresses = new Dictionary<string, List<string>>();
-            var ipS = new List<string>();
+            var ipsDictionary = new Dictionary<string, int>();
+            var userDictionary = new SortedDictionary<string, List<string>>();
 
-            while (!text.Equals("end"))
+            while (true)
             {
-                var ip = textSplit[1];
-                var user = textSplit[5];
-                ipS.Add(ip);
-                
-                if (!usersAndIpAddresses.ContainsKey(user))
+                var text = Console.ReadLine();
+                var textToArray = text
+                .Split("\n ".ToCharArray(), StringSplitOptions.RemoveEmptyEntries)
+                .ToList();
+
+                if (textToArray[0] == "end") break;
+
+                var ips = textToArray[0]
+                    .Split('=');
+
+                var messageText = textToArray[1]
+                    .Split('=');
+
+                var user = textToArray[2]
+                    .Split('=');
+
+                var IPs = new List<string>();
+                IPs.Add(ips[1]);
+
+                if (!userDictionary.ContainsKey(user[1]))
                 {
-                    usersAndIpAddresses[user] = ipS;
+                    userDictionary[user[1]] = IPs;
                 }
                 else
                 {
-                    usersAndIpAddresses[user].AddRange(ipS);
+                    userDictionary[user[1]].AddRange(IPs);
                 }
-                text = Console.ReadLine();
             }
-            
-            foreach (var user in usersAndIpAddresses)
+            foreach (var userName in userDictionary)
             {
-                Console.WriteLine(user+":");
-                ipS = user.Value;
-
-                var countOfIps = new Dictionary<string, int>();
-
-                foreach (var ip in ipS)
+                Console.WriteLine(userName.Key + ":");
+                var ipsList = userName.Value;
+                foreach (var ip in ipsList)
                 {
-                    if (!countOfIps.ContainsKey(ip))
+                    if (!ipsDictionary.ContainsKey(ip))
                     {
-                        countOfIps[ip] = 1;
+                        ipsDictionary[ip] = 0;
+                    }
+                    ipsDictionary[ip] += 1;
+                }
+                var count = ipsDictionary.Count;
+                foreach (var item in ipsDictionary)
+                {
+                    count--;
+                    if (count > 0)
+                    {
+                        Console.WriteLine($"{item.Key} => {item.Value},");
                     }
                     else
                     {
-                        countOfIps[ip] += 1;
+                        Console.WriteLine($"{item.Key} => {item.Value}.");
                     }
                 }
-
-                int ipCount = countOfIps.Count;
-
-                foreach (var ip in countOfIps)
-                {
-                    ipCount--;
-                    if (ipCount > 0)
-                    {
-                        Console.WriteLine($"{ip.Key} => {ip.Value},");
-                    }
-                    else
-                    {
-                        Console.WriteLine($"{ip.Key} => {ip.Value}.");
-                    }
-                }
-                Console.WriteLine();               
             }
         }
     }

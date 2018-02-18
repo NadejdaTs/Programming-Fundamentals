@@ -1,31 +1,65 @@
 ﻿using System;
 using System.Collections.Generic;
-
-namespace _3.A_Miner_Task
+using System.Linq;
+ 
+class User_Logs
 {
-    class MinerTask
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
+        var users = new SortedDictionary<string, List<string>>();
+        string command = "";
+        while (true)
         {
-            var line = Console.ReadLine();
-            var resourceQuantity = new Dictionary<string, decimal>();
-
-            while (line != "stop")
+            var entry = Console.ReadLine().Split().ToList();
+            command = entry[0];
+            if (command == "end") break;
+            int indexOfIP = command.IndexOf('=') + 1;
+            string ip = command.Substring(indexOfIP);
+            int indexOfUser = entry[2].LastIndexOf('=') + 1;
+            string user = entry[2].Substring(indexOfUser);
+            var IPs = new List<string>();
+            IPs.Add(ip);
+            if (!users.ContainsKey(user))
             {
-                var resourse = line;
-                var quantity = decimal.Parse(Console.ReadLine());
-                if (!resourceQuantity.ContainsKey(resourse))
+                users[user] = IPs;
+            }
+            else
+            {
+                users[user].AddRange(IPs);
+            }
+        }
+
+        foreach (var user in users)
+        {
+            Console.WriteLine(user.Key + ": ");
+            var IPs = user.Value;
+            var numberOfIPs = new Dictionary<string, int>();
+            foreach (var ip in IPs)
+            {
+                if (!numberOfIPs.ContainsKey(ip))
                 {
-                    resourceQuantity[resourse] = 0;
+                    numberOfIPs[ip] = 1;
                 }
-                resourceQuantity[resourse] += quantity;    
-                line = Console.ReadLine();
+                else
+                {
+                    numberOfIPs[ip] += 1;
+                }
             }
 
-            foreach (var resourse in resourceQuantity)
+            int count = numberOfIPs.Count;
+            foreach (var ip in numberOfIPs)
             {
-                Console.WriteLine($"{resourse.Key} -> {resourse.Value}");
+                count--;
+                if (count > 0)
+                {
+                    Console.WriteLine(ip.Key + " => " + ip.Value + ", ");
+                }
+                else
+                {
+                    Console.WriteLine(ip.Key + " => " + ip.Value + ". ");
+                }
             }
+            Console.WriteLine();
         }
     }
 }
