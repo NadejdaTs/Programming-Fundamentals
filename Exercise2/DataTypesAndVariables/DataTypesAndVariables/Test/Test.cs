@@ -10,7 +10,6 @@ namespace Test
             //BigInteger big = new BigInteger(1234567890123456);
             //Console.WriteLine(big* big* big* big);
 
-
             //int f = 0;
             //int d = 10;
             //Console.WriteLine(double.PositiveInfinity * double.NegativeInfinity);
