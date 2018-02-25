@@ -3,45 +3,45 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Express 14 for Windows Desktop
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTypesAndVariables", "DataTypesAndVariables\DataTypesAndVariables.csproj", "{BC00A3C0-2D50-49C5-87CD-8B1E6C0DA556}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.DataTypesAndVariables", "DataTypesAndVariables\01.DataTypesAndVariables.csproj", "{BC00A3C0-2D50-49C5-87CD-8B1E6C0DA556}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Floating.Point", "Floating.Point\Floating.Point.csproj", "{BEC85E9E-CF9F-436F-9A1F-C69232641198}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.FloatingPoint", "Floating.Point\02.FloatingPoint.csproj", "{BEC85E9E-CF9F-436F-9A1F-C69232641198}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharAndString", "CharAndString\CharAndString.csproj", "{62A94031-7A03-45C4-AC8F-44F88C7EA738}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.CharAndString", "CharAndString\03.CharAndString.csproj", "{62A94031-7A03-45C4-AC8F-44F88C7EA738}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hexadecimal", "Hexadecimal\Hexadecimal.csproj", "{8D36ED1E-6FA7-4678-8824-DD64F01844B7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.Hexadecimal", "Hexadecimal\04.Hexadecimal.csproj", "{8D36ED1E-6FA7-4678-8824-DD64F01844B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bool", "Bool\Bool.csproj", "{0A5DA4DF-1B66-4E2D-A235-97C7ED77E61D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.Bool", "Bool\05.Bool.csproj", "{0A5DA4DF-1B66-4E2D-A235-97C7ED77E61D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWord", "HelloWord\HelloWord.csproj", "{1B06263D-2488-4449-AF52-41FAE10E3A14}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.HelloWord", "HelloWord\06.HelloWord.csproj", "{1B06263D-2488-4449-AF52-41FAE10E3A14}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangeVar", "ExchangeVar\ExchangeVar.csproj", "{EF9F928F-FFD3-4748-8D83-47A7F6084806}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.ExchangeVar", "ExchangeVar\07.ExchangeVar.csproj", "{EF9F928F-FFD3-4748-8D83-47A7F6084806}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeData", "EmployeeData\EmployeeData.csproj", "{C861C267-87B5-47FF-ABBB-EDC2FF61F861}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.EmployeeData", "EmployeeData\08.EmployeeData.csproj", "{C861C267-87B5-47FF-ABBB-EDC2FF61F861}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseCharacters", "ReverseCharacters\ReverseCharacters.csproj", "{4F7BE8B8-CC95-4F44-AE93-C8E167DB36E5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.ReverseCharacters", "ReverseCharacters\09.ReverseCharacters.csproj", "{4F7BE8B8-CC95-4F44-AE93-C8E167DB36E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CenturiesToNanoseconds", "CenturiesToNanoseconds\CenturiesToNanoseconds.csproj", "{C322FD38-D51E-42AB-AB90-0891A422D924}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.CenturiesToNano", "CenturiesToNanoseconds\10.CenturiesToNano.csproj", "{C322FD38-D51E-42AB-AB90-0891A422D924}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertSpeedUnits", "ConvertSpeedUnits\ConvertSpeedUnits.csproj", "{8FC2CB26-AC52-4D3E-AD0A-0ED1A6FC0983}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.ConvertSpeedUnits", "ConvertSpeedUnits\11.ConvertSpeedUnits.csproj", "{8FC2CB26-AC52-4D3E-AD0A-0ED1A6FC0983}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VowelOrDigit", "VowelOrDigit\VowelOrDigit.csproj", "{C3645098-FE92-44A6-B599-EC9E3012C7EB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13.VowelOrDigit", "VowelOrDigit\13.VowelOrDigit.csproj", "{C3645098-FE92-44A6-B599-EC9E3012C7EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegerToHexAndBinary", "IntegerToHexAndBinary\IntegerToHexAndBinary.csproj", "{3B2D7ABE-D847-4D42-95C3-70057DCFC560}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14.IntegerToHexAndBinary", "IntegerToHexAndBinary\14.IntegerToHexAndBinary.csproj", "{3B2D7ABE-D847-4D42-95C3-70057DCFC560}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastPrimeCheckerRefactor", "FastPrimeCheckerRefactor\FastPrimeCheckerRefactor.csproj", "{6EEFB050-4E72-43B1-AF36-2B40E218EF50}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.FastPrimeChecker", "FastPrimeCheckerRefactor\15.FastPrimeChecker.csproj", "{6EEFB050-4E72-43B1-AF36-2B40E218EF50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComparingFloats", "ComparingFloats\ComparingFloats.csproj", "{E33B4C17-576E-4703-B872-2D82BDBCFC2D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16.ComparingFloats", "ComparingFloats\16.ComparingFloats.csproj", "{E33B4C17-576E-4703-B872-2D82BDBCFC2D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintPartOfTheASCIITable", "PrintPartOfTheASCIITable\PrintPartOfTheASCIITable.csproj", "{0018512B-9CAF-4E9C-A13D-73F685DBB990}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17.PrintPartOfTheASCII", "PrintPartOfTheASCIITable\17.PrintPartOfTheASCII.csproj", "{0018512B-9CAF-4E9C-A13D-73F685DBB990}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DifferentIntegersSize", "DifferentIntegersSize\DifferentIntegersSize.csproj", "{0C0EAB3B-95C3-4E46-842F-CA8FFC6B408B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18.DifferentIntegersSize", "DifferentIntegersSize\18.DifferentIntegersSize.csproj", "{0C0EAB3B-95C3-4E46-842F-CA8FFC6B408B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RectangleProperties", "RectangleProperties\RectangleProperties.csproj", "{5173742E-5DDD-4114-A4A2-5FF5C1F6DE6C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12.RectangleProperties", "RectangleProperties\12.RectangleProperties.csproj", "{5173742E-5DDD-4114-A4A2-5FF5C1F6DE6C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Speed", "Speed\Speed.csproj", "{A9925E0D-CE56-46F4-843B-F67BD169EDBF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Speed\Test.csproj", "{A9925E0D-CE56-46F4-843B-F67BD169EDBF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thea_Photographer", "Thea_Photographer\Thea_Photographer.csproj", "{D083F489-87F1-470F-AC5F-3F215C642102}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19.TheaPhotographer", "Thea_Photographer\19.TheaPhotographer.csproj", "{D083F489-87F1-470F-AC5F-3F215C642102}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
