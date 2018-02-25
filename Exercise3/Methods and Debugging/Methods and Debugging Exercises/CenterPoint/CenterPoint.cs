@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 //prints the point that is closest to the center of the coordinate system (0, 0) in the format (X, Y)
 
