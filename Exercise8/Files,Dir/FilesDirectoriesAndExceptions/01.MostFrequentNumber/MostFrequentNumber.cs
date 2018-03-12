@@ -23,6 +23,9 @@ namespace _01.Most_Frequent_Number
                 int maxCount = 0;
                 int mostFreqNum = 0;
                 int num = 0;
+                var resultFile = "MostFrequentNum_resultFile.txt";
+                File.WriteAllText(resultFile, String.Empty);
+                
                 for (int i = 0; i < currLine.Length - 1; i++)
                 {
                     currNumber = currLine[i];
@@ -45,13 +48,18 @@ namespace _01.Most_Frequent_Number
                         {
                             count = 0;
                         }
+                        
                     }
+                    
+                    //File.AppendAllText("MostFrequentNum_resultFile.txt", Environment.NewLine);
                 }
                 Console.WriteLine(mostFreqNum);
+                File.AppendAllText(resultFile, $"{mostFreqNum}");
 
-                var result = File.Create("C:\\Users\\Freeware Sys\\Desktop\\MostFrequentNum-result.txt");
-                var arrResult = new List<string>();
-                arrResult.Add(mostFreqNum.ToString());
+
+                //var result = File.Create("C:\\Users\\Freeware Sys\\Desktop\\MostFrequentNum-result.txt");
+                //var arrResult = new List<string>();
+                //arrResult.Add(mostFreqNum.ToString());
                 //File.AppendAllLines($"C:\\Users\\Freeware Sys\\Desktop\\C# - Programming Fundamentals\\Programming-Fundamentals\\Exercise8\\Files,Dir\\FilesDirectoriesAndExceptions\\01.MostFrequentNumber\\bin\\Debug\\MostFrequentNum-result.txt", arrResult);
             }   
         }
