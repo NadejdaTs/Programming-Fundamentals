@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq;
 using System.IO;
+using System.Collections.Generic;
 
 namespace _01.Most_Frequent_Number
 {
@@ -47,6 +48,11 @@ namespace _01.Most_Frequent_Number
                     }
                 }
                 Console.WriteLine(mostFreqNum);
+
+                var result = File.Create("C:\\Users\\Freeware Sys\\Desktop\\MostFrequentNum-result.txt");
+                var arrResult = new List<string>();
+                arrResult.Add(mostFreqNum.ToString());
+                //File.AppendAllLines($"C:\\Users\\Freeware Sys\\Desktop\\C# - Programming Fundamentals\\Programming-Fundamentals\\Exercise8\\Files,Dir\\FilesDirectoriesAndExceptions\\01.MostFrequentNumber\\bin\\Debug\\MostFrequentNum-result.txt", arrResult);
             }   
         }
     }
